@@ -2,19 +2,19 @@ from django.shortcuts import render
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from .models import Artists
-from .serializers import ArtistsSerializer
+from .models import Artist
+from .serializers import ArtistSerializer
 
 # GET and POST for users
 @api_view(['GET', 'POST'])
 def user_list(request):
     if request.method == 'GET':
-        artists = Artists.objects.all()
-        serializer = ArtistsSerializer(artists, many=True)
+        artist = Artist.objects.all()
+        serializer = ArtistSerializer(artist, many=True)
         return Response(serializer.data)
     
     elif request.method == 'POST':
-        serializer = ArtistsSerializer(data=request.data)
+        serializer = ArtistSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -24,16 +24,16 @@ def user_list(request):
 @api_view(['GET', 'PUT', 'DELETE'])
 def user_detail(request, pk):
     try:
-        artist = Artists.objects.get(pk=pk)
-    except Artists.DoesNotExist:
+        artist = Artist.objects.get(pk=pk)
+    except Artist.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
     
     if request.method == 'GET':
-        serializer = ArtistsSerializer(artist)
+        serializer = ArtistSerializer(artist)
         return Response(serializer.data)
     
     elif request.method == 'PUT':
-        serializer = ArtistsSerializer(artist, data=request.data)
+        serializer = ArtistSerializer(artist, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
