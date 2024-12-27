@@ -46,8 +46,13 @@
       <td>UPDATE</td>
       <td>Updates a specific user</td>
     </tr>
+    <tr>
+      <td>
+        <code>/api/users<id>/</code>
+      </td>
+      <td>DELETE</td>
+      <td>DELETE</td>
+      <td>Deletes a specific user</td>
+    </tr>
   </tbody>
 </table>
-
-
-DELETE: /api/users<id>/ (deletes a specific user)
