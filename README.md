@@ -14,7 +14,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr>/api/users/</tr>
+    <tr>api/users</tr>
     <tr></tr>
     <tr></tr>
     <tr></tr>
