@@ -30,13 +30,24 @@
       <td>CREATE</td>
       <td>Create new user</td>
     </tr>
+    <tr>
+      <td>
+        <code>/api/users/<id>/</code>
+      </td>
+      <td>GET</td>
+      <td>READ</td>
+      <td>Get a specific user</td>
+    </tr>
+    <tr>
+      <td>
+        <code>/api/users/<id>/</code>
+      </td>
+      <td>PUT</td>
+      <td>UPDATE</td>
+      <td>Updates a specific user</td>
+    </tr>
   </tbody>
 </table>
 
-POST: /api/users/ (create a new user)
-
-GET: /api/users/<id>/ (get a specific user)
-
-PUT: /api/users/<id>/ (updates a specific user)
 
 DELETE: /api/users<id>/ (deletes a specific user)
