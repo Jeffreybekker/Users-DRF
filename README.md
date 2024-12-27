@@ -32,7 +32,7 @@
     </tr>
     <tr>
       <td>
-        <code>/api/users/<id>/</code>
+        <code>/api/users/:id>/</code>
       </td>
       <td>GET</td>
       <td>READ</td>
@@ -40,7 +40,7 @@
     </tr>
     <tr>
       <td>
-        <code>/api/users/<id>/</code>
+        <code>/api/users/:id>/</code>
       </td>
       <td>PUT</td>
       <td>UPDATE</td>
@@ -48,7 +48,7 @@
     </tr>
     <tr>
       <td>
-        <code>/api/users/<int:id>/</code>
+        <code>/api/users/:id>/</code>
       </td>
       <td>DELETE</td>
       <td>DELETE</td>
