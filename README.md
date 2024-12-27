@@ -48,7 +48,7 @@
     </tr>
     <tr>
       <td>
-        <code>/api/users<id>/</code>
+        <code>/api/users/<id>/</code>
       </td>
       <td>DELETE</td>
       <td>DELETE</td>
