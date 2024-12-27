@@ -14,12 +14,14 @@
     </tr>
   </thead>
   <tbody>
-    <tr>api/users</tr>
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>
+    <tr>
+      <td>
+        <code>/api/users/</code>
+      </td>
+      <td>GET</td>
+      <td>READ</td>
+      <td>Get all users</td>
+    </tr>
   </tbody>
 </table>
 
