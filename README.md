@@ -22,11 +22,16 @@
       <td>READ</td>
       <td>Get all users</td>
     </tr>
+    <tr>
+      <td>
+        <code>/api/users/</code>
+      </td>
+      <td>POST</td>
+      <td>CREATE</td>
+      <td>Create new user</td>
+    </tr>
   </tbody>
 </table>
-
-
-GET: /api/users/ (get all the users)
 
 POST: /api/users/ (create a new user)
 
