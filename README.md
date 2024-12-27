@@ -4,6 +4,17 @@
 <p>The key point of the project was being able to use the CRUD operations using Insomnia.</p>
 
 <h2>API Endpoints</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>HTTP Method</th>
+      <th>CRUD Method</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+</table>
+
 
 GET: /api/users/ (get all the users)
 
