@@ -70,7 +70,6 @@
       <td>CREATE</td>
       <td>Creates an album</td>
     </tr>
-
       <tr>
       <td>
         <code>/api/albums/:id>/</code>
