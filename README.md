@@ -1,7 +1,7 @@
 <h1>CRUD API project for Artists and Albums</h1>
 <h2>Description</h2>
 <p>This is a small project to refresh the basics of APIs.</p>
-<p>The key point of the project was being able to use the CRUD operations using Insomnia.</p>
+<p>The point of the project was being able to use the CRUD operations using Insomnia.</p>
 
 <h2>API Endpoints</h2>
 <table>
@@ -16,43 +16,43 @@
   <tbody>
     <tr>
       <td>
-        <code>/api/users/</code>
+        <code>/api/artists/</code>
       </td>
       <td>GET</td>
       <td>READ</td>
-      <td>Get all users</td>
+      <td>Get all artists</td>
     </tr>
     <tr>
       <td>
-        <code>/api/users/</code>
+        <code>/api/artists/</code>
       </td>
       <td>POST</td>
       <td>CREATE</td>
-      <td>Create new user</td>
+      <td>Create new artist</td>
     </tr>
     <tr>
       <td>
-        <code>/api/users/:id>/</code>
+        <code>/api/artists/:id>/</code>
       </td>
       <td>GET</td>
       <td>READ</td>
-      <td>Get a specific user</td>
+      <td>Get a specific artist</td>
     </tr>
     <tr>
       <td>
-        <code>/api/users/:id>/</code>
+        <code>/api/artists/:id>/</code>
       </td>
       <td>PUT</td>
       <td>UPDATE</td>
-      <td>Updates a specific user</td>
+      <td>Updates a specific artist</td>
     </tr>
     <tr>
       <td>
-        <code>/api/users/:id>/</code>
+        <code>/api/artists/:id>/</code>
       </td>
       <td>DELETE</td>
       <td>DELETE</td>
-      <td>Deletes a specific user</td>
+      <td>Deletes a specific artist</td>
     </tr>
   </tbody>
 </table>
