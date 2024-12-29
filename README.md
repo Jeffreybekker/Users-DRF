@@ -54,5 +54,21 @@
       <td>DELETE</td>
       <td>Deletes a specific artist</td>
     </tr>
+    <tr>
+      <td>
+        <code>/api/albums/</code>
+      </td>
+      <td>GET</td>
+      <td>READ</td>
+      <td>Get all albums</td>
+    </tr>
+    <tr>
+      <td>
+        <code>/api/albums/</code>
+      </td>
+      <td>POST</td>
+      <td>CREATE</td>
+      <td>Creates an album</td>
+    </tr>
   </tbody>
 </table>
