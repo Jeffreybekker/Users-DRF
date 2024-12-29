@@ -70,5 +70,30 @@
       <td>CREATE</td>
       <td>Creates an album</td>
     </tr>
+
+      <tr>
+      <td>
+        <code>/api/albums/:id>/</code>
+      </td>
+      <td>GET</td>
+      <td>READ</td>
+      <td>Get a specific album from artist</td>
+    </tr>
+        <tr>
+      <td>
+        <code>/api/albums/:id>/</code>
+      </td>
+      <td>PUT</td>
+      <td>UPDATE</td>
+      <td>Updates a specific album from artist</td>
+    </tr>
+        <tr>
+      <td>
+        <code>/api/albums/:id>/</code>
+      </td>
+      <td>DELETE</td>
+      <td>DELETE</td>
+      <td>Deletes a specific album from artist</td>
+    </tr>
   </tbody>
 </table>
