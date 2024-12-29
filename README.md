@@ -36,7 +36,7 @@
       </td>
       <td>GET</td>
       <td>READ</td>
-      <td>Get a specific artist</td>
+      <td>Get an artist</td>
     </tr>
     <tr>
       <td>
@@ -44,7 +44,7 @@
       </td>
       <td>PUT</td>
       <td>UPDATE</td>
-      <td>Updates a specific artist</td>
+      <td>Updates an artist</td>
     </tr>
     <tr>
       <td>
@@ -52,7 +52,7 @@
       </td>
       <td>DELETE</td>
       <td>DELETE</td>
-      <td>Deletes a specific artist</td>
+      <td>Deletes an artist</td>
     </tr>
     <tr>
       <td>
