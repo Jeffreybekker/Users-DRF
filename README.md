@@ -1,7 +1,7 @@
 <h1>CRUD API project for Artists and Albums</h1>
 <h2>Description</h2>
-<p>This is a small project to refresh the basics of APIs.</p>
-<p>The point of the project was being able to use the CRUD operations using Insomnia.</p>
+<p>In this small project you can read, create and deletes artists and albums of your choice.</p>
+<p>The point of the project was being able to use the CRUD operations with the usage of Insomnia.</p>
 
 <h2>API Endpoints</h2>
 <table>
