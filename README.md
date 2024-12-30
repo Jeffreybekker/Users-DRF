@@ -88,7 +88,7 @@
     </tr>
     <tr>
       <td>
-        <code>`/api/albums/:id>`/</code>
+        `/api/albums/<id>/`
       </td>
       <td>DELETE</td>
       <td>DELETE</td>
