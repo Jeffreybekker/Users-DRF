@@ -80,7 +80,7 @@
     </tr>
     <tr>
       <td>
-        <code>/api/albums/:id>/</code>
+        <code>```/api/albums/<id>/```</code>
       </td>
       <td>PUT</td>
       <td>UPDATE</td>
