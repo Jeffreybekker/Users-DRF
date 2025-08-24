@@ -18,7 +18,8 @@ class Album(models.Model):
     )  # When you delete an artistID, Album will be deleted too
 
     def __str__(self):
-        return f"{self.title} ({self.artistID.first_name} {self.artistID.last_name})"  # Gives the Album name + full name of artist
+        # Gives the Album name + full name of artist
+        return f"{self.title} ({self.artistID.first_name} {self.artistID.last_name})"
 
 
 class Genre(models.Model):
