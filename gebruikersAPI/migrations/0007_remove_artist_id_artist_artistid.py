@@ -4,19 +4,18 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0006_rename_user_artist'),
+        ("gebruikersAPI", "0006_rename_user_artist"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='artist',
-            name='id',
+            model_name="artist",
+            name="id",
         ),
         migrations.AddField(
-            model_name='artist',
-            name='artistID',
+            model_name="artist",
+            name="artistID",
             field=models.IntegerField(default=1, primary_key=True, serialize=False),
             preserve_default=False,
         ),

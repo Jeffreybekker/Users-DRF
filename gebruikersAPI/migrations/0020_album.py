@@ -5,18 +5,23 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0019_rename_artists_artist'),
+        ("gebruikersAPI", "0019_rename_artists_artist"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Album',
+            name="Album",
             fields=[
-                ('albumID', models.AutoField(primary_key=True, serialize=False)),
-                ('title', models.CharField(max_length=100)),
-                ('artistID', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='gebruikersAPI.artist')),
+                ("albumID", models.AutoField(primary_key=True, serialize=False)),
+                ("title", models.CharField(max_length=100)),
+                (
+                    "artistID",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="gebruikersAPI.artist",
+                    ),
+                ),
             ],
         ),
     ]

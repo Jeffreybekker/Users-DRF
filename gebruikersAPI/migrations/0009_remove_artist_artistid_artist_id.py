@@ -4,20 +4,25 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0008_alter_artist_artistid'),
+        ("gebruikersAPI", "0008_alter_artist_artistid"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='artist',
-            name='artistID',
+            model_name="artist",
+            name="artistID",
         ),
         migrations.AddField(
-            model_name='artist',
-            name='id',
-            field=models.BigAutoField(auto_created=True, default=1, primary_key=True, serialize=False, verbose_name='ID'),
+            model_name="artist",
+            name="id",
+            field=models.BigAutoField(
+                auto_created=True,
+                default=1,
+                primary_key=True,
+                serialize=False,
+                verbose_name="ID",
+            ),
             preserve_default=False,
         ),
     ]

@@ -5,15 +5,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0023_genre_track'),
+        ("gebruikersAPI", "0023_genre_track"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='track',
-            name='genreID',
-            field=models.ForeignKey(default='Not Defined yet', null=True, on_delete=django.db.models.deletion.SET_NULL, to='gebruikersAPI.genre'),
+            model_name="track",
+            name="genreID",
+            field=models.ForeignKey(
+                default="Not Defined yet",
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                to="gebruikersAPI.genre",
+            ),
         ),
     ]

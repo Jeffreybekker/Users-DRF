@@ -4,20 +4,19 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
-        ('gebruikersAPI', '0017_delete_artists'),
+        ("gebruikersAPI", "0017_delete_artists"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Artists',
+            name="Artists",
             fields=[
-                ('artistID', models.AutoField(primary_key=True, serialize=False)),
-                ('first_name', models.CharField(max_length=100)),
-                ('last_name', models.CharField(max_length=100)),
+                ("artistID", models.AutoField(primary_key=True, serialize=False)),
+                ("first_name", models.CharField(max_length=100)),
+                ("last_name", models.CharField(max_length=100)),
             ],
         ),
     ]

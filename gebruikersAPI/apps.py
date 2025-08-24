@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class GebruikersapiConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'gebruikersAPI'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "gebruikersAPI"

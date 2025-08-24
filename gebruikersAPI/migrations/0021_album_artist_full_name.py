@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0020_album'),
+        ("gebruikersAPI", "0020_album"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='album',
-            name='artist_full_name',
+            model_name="album",
+            name="artist_full_name",
             field=models.CharField(default=1, editable=False, max_length=100),
             preserve_default=False,
         ),

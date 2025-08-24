@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('gebruikersAPI', '0003_alter_user_city'),
+        ("gebruikersAPI", "0003_alter_user_city"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='user',
-            name='city',
-            field=models.CharField(default='Undefined', max_length=100),
+            model_name="user",
+            name="city",
+            field=models.CharField(default="Undefined", max_length=100),
         ),
     ]
